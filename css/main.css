@@ -65,6 +65,23 @@ section {
   letter-spacing: .3em;
 }
 
+.left-col .subhead .tooltip{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.left-col .subhead:hover .tooltip{
+  visibility: visible;
+}
+
 .left-col h1 {
   font-size: 2.5em;
   line-height: 1.3em;
