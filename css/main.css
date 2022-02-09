@@ -58,11 +58,32 @@ section {
   text-align: center;
 }
 
+.left-col{
+  border: 25px solid navy;
+}
+
 .left-col .subhead {
   text-transform: uppercase;
   font-weight: bold;
   color: gray;
   letter-spacing: .3em;
+}
+
+.left-col .subhead .tooltip{
+  visibility: hidden;
+  width: 360px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.left-col .subhead:hover .tooltip{
+  visibility: visible;
 }
 
 .left-col h1 {
@@ -115,6 +136,7 @@ ul.features-list li {
   margin-bottom: 1em;
   margin-left: 2em;
   position: relative;
+  display: inline;
 }
 
 ul.features-list li:before {
@@ -152,6 +174,42 @@ ul.features-list li:before {
   border: 5px solid #006BD6;
   border-radius: 50%;
   margin-top: -4.5em;
+}
+
+p{
+  color: red;
+  font-family: Italic;
+}
+
+h1{
+  color: red;
+  padding-left: 25px;
+  padding-top: 30px;
+  text-shadow: 2px 2px;
+}
+
+.container .features-list{
+  background-color: rgb(0,255,0);
+}
+
+a:visited{
+  background-color: lightblue;
+}
+
+a:hover{
+  background-color: yellow;
+}
+
+div > p{
+  color: red;
+}
+
+p:first-child {
+  background-color: lightblue;
+}
+
+input:active, input:focus{
+  background: lightblue;
 }
 
 h2 {

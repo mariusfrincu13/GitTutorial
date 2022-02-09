@@ -33,18 +33,22 @@
     <section class="hero">
         <div class="container">
             <div class="left-col">
-                <p class="subhead">It's Nitty &amp; Gritty</p>
+                <a href="#go-footer">Go footer</a>
+                <p class="subhead" style="color: red">It's Nitty &amp; Gritty
+                    <span class="tooltip">Lorem ipsum dolor sit amet</span>
+                </p>
+
                 <h1>A Task App That Doesn't Stink</h1>
 
                 <div class="hero-cta">
-                    <a href="#" class="primary-cta">Try for free</a>
+                    <a href="https://www.google.com/" class="primary-cta">Go to google.com</a>
                     <a href="#" class="watch-video-cta">
                         <img src="images/watch.svg" alt="Watch a video">Watch a video
                     </a>
                 </div>
             </div>
 
-            <img src="images/illustration.svg" class="hero-img" alt="Illustration">
+            <a href="http://localhost:63342/Projects/HTML&CSS/images/illustration.svg"><img src="images/illustration.svg" class="hero-img" alt="Illustration"></a>
         </div>
     </section>
 
@@ -58,6 +62,19 @@
                 <li>Real Time Collaboration</li>
                 <li>Other awesome features</li>
             </ul>
+
+            <img src="images/holding-phone.jpg" alt="Man holding phone">
+        </div>
+
+        <div class="container">
+            <ol class="features-list">
+                <li>Unlimited Tasks</li>
+                <li>SMS Task Reminders</li>
+                <li>Confetti Explosions upon Task Completions</li>
+                <li>Social Media Announcements</li>
+                <li>Real Time Collaboration</li>
+                <li>Other awesome features</li>
+            </ol>
 
             <img src="images/holding-phone.jpg" alt="Man holding phone">
         </div>
@@ -88,14 +105,19 @@
         </div>
     </section>
 
-    <section class="contact-section">
+    <br>
+
+    <section class="contact-section" id="go-footer">
         <div class="container">
             <div class="contact-left">
                 <h2>Contact</h2>
 
                 <form action="">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" maxlength="40">
+
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date">
 
                     <label for="message">Message</label>
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
